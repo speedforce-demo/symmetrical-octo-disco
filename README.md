@@ -24,5 +24,5 @@ chmod +x cloudflare-xui.sh
 
 Add Cronjob
 ```
-(crontab -l && echo "*/1 * * * * /bin/bash /home/ubuntu/cloudflare-xui.sh") | crontab -
+(crontab -l && echo "*/1 * * * * /bin/bash /home/ubuntu/cloudflare-ddns-updater/cloudflare-xui.sh") | crontab -
 ```
