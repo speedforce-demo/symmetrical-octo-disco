@@ -6,7 +6,7 @@ wget https://raw.githubusercontent.com/speedforce-demo/symmetrical-octo-disco/ma
 
 Make SSL
 ```
-sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email [email] -d [doamin]
+sudo certbot certonly --standalone --preferred-challenges http --agree-tos --email speedforce.demo@gmail.com -d .xui.speedforce.us.eu.org
 ```
 
 Make DDNS
