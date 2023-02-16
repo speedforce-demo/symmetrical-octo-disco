@@ -1,15 +1,17 @@
 #!/bin/bash
 #====================================================
 # SCRIPT: ELH SERVER QUICK DEPLOY FOR X-UI
-# DEVELOPED BY: netbro201031
-# UPDATE DATE: 2021.11.06
-# THIS REPO SPECIALLY MADE FOR ELH.NETWOXCLOUD SERVERS.
+# DEVELOPED BY: Speed Force LK LLC
+# UPDATE DATE: 2023.02.16
+# THIS REPO SPECIALLY MADE FOR SPEED FORCE LK LLC SERVERS.
 #====================================================
 
 # Update System
 sudo apt update 
 # Upgrade System
 sudo apt upgrade -y
+# Install Git
+apt install git -y
 # Install Firewalld
 sudo apt-get install firewalld -y
 # Open Ports
